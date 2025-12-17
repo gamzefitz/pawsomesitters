@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "name": "Siobhán",
+        "lname": "Murphy",
+        "description": "I’ve been caring for dogs and cats for over 8 years, with a special focus on senior pets. I’m very comfortable giving medication and sticking closely to your pet’s normal routine. I treat every animal I care for as if they were my own.",
+        "image": "./images/siobhan.png",
+        "price": 12,
+        "location": "Cork",
+        "summaryCard": ["can drive", "can administer medicine", "can stay the night"]
+    },
+    {
+        "id": 2,
+        "name": "Conor",
+        "lname": " O’Neilly",
+        "description": "I’m an active pet sitter who loves getting outdoors with energetic dogs. Long walks, playtime, and keeping dogs mentally stimulated are my strong points. I’m reliable, easy to communicate with, and genuinely love what I do.",
+        "image": "./images/conor.png",
+        "price": 15,
+        "location": "Waterford",
+        "summaryCard": ["can walk big, energetic dogs", "can walk more than one dog", "can give pills to dogs"]
+    },
+    {
+        "id": 3,
+        "name": "Aoife",
+        "lname": "Kelly",
+        "description": "I specialise in cat-only care and understand that cats need patience and calm handling. I have lots of experience with shy and older cats, and I always respect their space. My goal is to keep your cat relaxed and comfortable while you’re away.",
+        "image": "./images/aoife.jpg",
+        "price": 13,
+        "location": "Dublin",
+        "summaryCard": ["non-smoker", "can stay the night", "can brush cats"]
+    },
+    {
+        "id": 4,
+        "name": "Patrick",
+        "lname": "Byrne",
+        "description": "I offer overnight house and pet sitting so your pets can stay in their own home and routine. I’m experienced with both dogs and cats, and I take great pride in keeping homes safe, tidy, and secure. You can travel knowing everything is in good hands.",
+        "image": "./images/patrick.jpg",
+        "price": 16,
+        "location": "Dublin",
+        "summaryCard": ["can walk big, energetic dogs", "can walk more than one dog", "can give pills to dogs"]
+    },
+    {
+        "id": 5,
+        "name": "Niamh",
+        "lname": "O’Sullivan",
+        "description": "I love working with puppies and helping them learn good habits from an early age. I support potty training, crate routines, and positive behaviour in a fun and patient way. I know how important updates are for new pet parents.",
+        "image": "./images/niamh.jpg",
+        "price": 11,
+        "location": "Cork",
+        "summaryCard": ["non-smoker", "can stay the night", "can brush cats"]
+    },
+    {
+        "id": 6,
+        "name": "Eimear",
+        "lname": "Walsh",
+        "description": "I have a real passion for caring for small pets and exotic animals. From rabbits and birds to reptiles and rodents, I understand their specific care needs. I take a gentle, knowledgeable approach to make sure every pet feels safe.",
+        "image": "./images/eimear.png",
+        "price": 15,
+        "location": "Waterford",
+        "summaryCard": ["can drive", "can administer medicine", "can stay the night"]
+    },
+    {
+        "id": 7,
+        "name": "Declan",
+        "lname": "Ryan",
+        "description": "I specialise in caring for senior pets and understand the extra patience they need. I’m experienced with medications, mobility issues, and calm routines. My focus is always on comfort, reassurance, and quality care.",
+        "image": "./images/declan.png",
+        "price": 13,
+        "location": "Dublin",
+        "summaryCard": ["can drive", "can administer medicine", "can stay the night"]
+    },
+    {
+        "id": 8,
+        "name": "Aisling",
+        "lname": "Brennan",
+        "description": "I believe great pet care should be reliable and affordable. I provide daily visits, feeding, walks, and playtime, and I always show up on time. You can count on me to care for your pets as if they were my own.",
+        "image": "./images/aisling.jpg",
+        "price": 14,
+        "location": "Waterford",
+        "summaryCard": ["can walk big, energetic dogs", "can walk more than one dog", "can give pills to dogs"]
+    },
+    {
+        "id": 9,
+        "name": "Fionn",
+        "lname": "Gallagher",
+        "description": "I’m Fear-Free Certified and work mainly with anxious or rescue pets. I use positive reinforcement and calming techniques to help pets feel safe and relaxed. I always tailor my care to suit each pet’s personality.",
+        "image": "./images/fionn.png",
+        "price": 11,
+        "location": "Cork",
+        "summaryCard": ["non-smoker", "can stay the night", "can brush cats"]
+    },
+    {
+        "id": 10,
+        "name": "Liam",
+        "lname": "Fitzpatrick",
+        "description": "I’m a lifelong animal lover with over 5 years of experience caring for dogs and cats of all sizes. I love spending time outdoors—long walks and playtime are my specialty. I always make sure they feel safe, happy, and loved while you’re away.",
+        "image": "./images/liam.jpg",
+        "price": 11,
+        "location": "Cork",
+        "summaryCard": ["non-smoker", "can stay the night", "can brush cats"]
+    },
+    {
+        "id": 11,
+        "name": "Seán",
+        "lname": "Murphy",
+        "description": "From energetic puppies to shy senior cats, I’m comfortable adapting to each pet’s unique personality. I’m detail-oriented when it comes to feeding routines, medication, and updates, so you can relax knowing your pet is in good hands.",
+        "image": "./images/sean.png",
+        "price": 11,
+        "location": "Waterford",
+        "summaryCard": ["non-smoker", "can stay the night", "can brush cats"]
+    },
+    {
+        "id": 12,
+        "name": "Cian",
+        "lname": "Clarke",
+        "description": "I have experience with rescue animals and understand the importance of trust and consistency. Whether it’s daily walks, play sessions, or overnight stays, I’ll make sure your pet feels comfortable and cared for at all times.",
+        "image": "./images/cian.png",
+        "price": 11,
+        "location": "Dublin",
+        "summaryCard": ["non-smoker", "can stay the night", "can brush cats"]
+    }
+
+]
