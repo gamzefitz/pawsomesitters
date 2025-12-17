@@ -1,0 +1,32 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    font-size: 350%;
+}
+
+article {
+    text-align: justify;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+hr {
+    width: 63%;
+    color: #9f73f0;
+}
+
+ol {
+    width: 100%;
+    margin: 0 auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+ol li {
+    margin-left: 2% ;
+}
