@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message</title>
+    <link rel="stylesheet" href="./css/navigation.css">
+    <link rel="stylesheet" href="./css/message.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profiles.html">Profiles</a></li>
+                <li><a href="bookings.html">Bookings</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 class="profile-name" id="profile-name"></h1>
+
+    <section>
+        <div class="chats" id="chats">
+            <span class="them chat">Hi! How are you?</span>
+            <span class="you chat">Very well, thanks for asking.</span>
+        </div>
+        <div class="message">
+            <input type="text" id="message" class="message-box" />
+            <button id="send-button" onClick="postMessage()">Send Message</button>
+        </div>
+        <button class="go-back-button" onclick="onClickGoBack()">Go back to profile</button>
+    </section>
+
+    
+
+    <footer>
+        <div class="footer">
+            <h3>Contact Us</h3>
+            <p>Email: info@pawsomesitters.ie</p>
+            <p>Phone: +353 (89) 123-4567</p></br>
+            <small class=Footer-copyright> &copy; Copyright 2025 Pawsomesitters <sup>&reg;</sup> <span
+                    class=float-right></small>
+        </div>
+    </footer>
+
+    <script src="./js/message.js"></script>
+</body>
+
+</html>

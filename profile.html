@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="./css/navigation.css">
+    <link rel="stylesheet" href="./css/profile.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profiles.html">Profiles</a></li>
+                <li><a href="bookings.html">Bookings</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="profile">
+        <div class="ind-desc-container1">
+            <div class="picture-button-wrapper">
+                <img id="profile-image" />
+                <button class="start-chat-button" id="start-chat">
+                    Start a chat
+                </button>
+            </div>
+
+            <div class="summary-card">
+                <ul>
+                    <li id="item1"></li>
+                    <li id="item2"></li>
+                    <li id="item3"></li>
+                </ul>
+            </div>
+
+            <div class="calendar-wrapper">
+                <iframe src="https://calendar.google.com/calendar/embed?height=200&wkst=2&ctz=Europe%2FDublin&showPrint=0&showTitle=0&showTz=0&showCalendars=0&src=NzJjYzAwMTY0ZGM1MTBmMzEzYzdkYjEwZmI5YjNkYzQxODcyNDM0NDI3Mjc2M2IyNjk5NTdjMGU5NzI1NjcyM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23ef6c00"
+                style="border:solid 1px #777" width="300" height="200" frameborder="0" scrolling="no">
+                </iframe>
+
+                <div class="icon-wrapper">
+                    <div class="not-available-wrapper">
+                        <span class="not-available-icon"> </span>
+                        <h5>Not Available</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ind-desc-container2">
+            <h1 id="profile-name"></h1>
+            <p class="profile-price">
+                €<span id="price-per-day"></span> per day
+            </p>
+            <p id="profile-description"></p>
+            <div class="booking-box">
+                <h3>Book this sitter</h3>
+
+                <label>
+                    Start date
+                    <input type="date" id="start-date" />
+                </label>
+
+                <label>
+                    End date
+                    <input type="date" id="end-date" />
+                </label>
+
+                <button class="book-button" id="book-now">
+                    Book Now
+                </button>
+
+                <p class="booking-error" id="booking-error"></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <h3>Contact Us</h3>
+            <p>Email: info@pawsomesitters.ie</p>
+                <p>Phone: +353 (89) 123-4567</p></br>
+            <small class=Footer-copyright> &copy; Copyright 2025 Pawsomesitters <sup>&reg;</sup> <span class=float-right></small>
+        </div>
+    </footer>
+    
+    <script src="./js/profile.js"></script>
+</body>
+
+</html>
