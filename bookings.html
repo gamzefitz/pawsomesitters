@@ -2,10 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- Responsiveness. Setting the viewport to make the website look good on all devices. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bookings</title>
+    <!-- SEO Optimization. Define keywords for search engines. -->
+    <meta name="keywords" content="petsitters, pets, petsitting, catsitters, dogsitters, catsitting, dogsitting">
+    <title>Bookings | Pawsomesitters</title>
     <link rel="stylesheet" href="./css/navigation.css">
     <link rel="stylesheet" href="./css/bookings.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -24,24 +28,30 @@
     <table class="bookings-table">
         <thead>
             <!-- <th>Sitter ID</th> -->
-            <th>Sitter Name</th>
-            <th>Start Date</th>
-            <th>End Date</th>
-            <th># Days</th>
-            <th>Total Price</th>
+            <th>Pet sitter name</th>
+            <th>Start date</th>
+            <th>End date</th>
+            <th>Number of days</th>
+            <th>Total price</th>
         </thead>
         <tbody id="bookings">
 
         </tbody>
     </table>
 
-    <footer>
-        <div class="footer">
-            <h3>Contact Us</h3>
-            <p>Email: info@pawsomesitters.ie</p>
-                <p>Phone: +353 (89) 123-4567</p></br>
-            <small class=Footer-copyright> &copy; Copyright 2025 Pawsomesitters <sup>&reg;</sup> <span class=float-right></small>
-        </div>
+<footer>
+        <section class="footer">
+            <h3 class="contact-us-heading">Contact Us</h3>
+            
+            <p>
+                <a href="https://www.facebook.com/groups/pawsomesitters" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/pawsomesitters/" class="fa fa-instagram"></a>
+                <a href="mailto:info@pawsomesitters.ie" class="fa fa-envelope"></a>
+                <a href="tel:+353 (89) 123-4567" class="fa fa-phone"></a>
+            </p></br>
+
+            <small class=Footer-copyright>&copy; Copyright 2025 Pawsomesitters<sup>&reg;</sup></small>
+        </section>
     </footer>
 
     <script src="./js/bookings.js"></script>   

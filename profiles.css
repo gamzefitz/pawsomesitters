@@ -1,0 +1,68 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+  font-size: 350%;
+}
+
+.sitters {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  padding: 16px;
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.sitter {
+  background-color: blanchedalmond;
+  border: 1px solid #e5e7eb9f;
+  border-radius: 20px;
+  padding: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+}
+
+.sitter:hover {
+  background: #a995d3;
+}
+
+.sitter-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  border-radius: 20px;
+}
+
+.sitter-name {
+  display: block;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.sitter-description {
+  display: block;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.sitter-price {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #16a34a;
+}
+
+@media (min-width: 768px) {
+  .sitters {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .sitters {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
